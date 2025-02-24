@@ -2,10 +2,9 @@
 
 The expression problem: [1](https://en.wikipedia.org/wiki/Expression_problem), [2](https://eli.thegreenplace.net/2016/the-expression-problem-and-its-solutions/) is the goal to extend programs in two dimensions: adding new data types and adding new operations on those types, without having to modify existing code. The challenge is to do both without modifying existing modules, and keeping type safety.
 
-This is an interesting question to ask as it reveals a lot about a language design, interaction with 3rd party libs, and what is going 
-on with one of the axes of [Barendregt's lambda cube](https://en.wikipedia.org/wiki/Lambda_cube).
+This is an interesting question to ask, as it reveals a lot about language design, interaction with third-party libraries, and what is happening along one of the axes of [Barendregt's lambda cube](https://en.wikipedia.org/wiki/Lambda_cube).
 
-I am no expert, this is just a glimpse at a fairly rich world of abstractions. Help yourself.
+I am no expert - this is just a glimpse into a rich world of abstractions. Help yourself.
 
 ## DeepSeek with Go, Rust, and Haskell
 
