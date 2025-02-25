@@ -1,6 +1,6 @@
 ## Introduction
 
-The expression problem: [1](https://en.wikipedia.org/wiki/Expression_problem), [2](https://eli.thegreenplace.net/2016/the-expression-problem-and-its-solutions/) is the challenge of adding new data types which satisfy given operations, and adding new operations on those types, without having to modify existing code while keeping type safety.
+The expression problem: [1](https://en.wikipedia.org/wiki/Expression_problem), [2](https://eli.thegreenplace.net/2016/the-expression-problem-and-its-solutions/) is the challenge of adding new data types that satisfy given operations and adding new operations on those types without modifying existing code, while maintaining type safety.
 
 The problem is about programming language design and interaction with the outer world.
 
@@ -26,7 +26,5 @@ runghc add_type_and_operation.hs
 
 - add_type_macro.rs. One of those rare motivations for a macro. It allows to add a type by generating the code which essentially results in `add_operation.rs`. This is still fairly limited as the macro must belong to the same crate with all the types (the orphan rule blocks implementing foreign traits for foreign types). This will typically demand forking the whole crate of the library.
 
-- add_type_and_operation.hs. Considered as the ideal solution by DeepSeek. Do not ask me how it works, but it has everything. Open types, open operations (type classes), the ability to iterate over a heterogeneous list (existential types), the type class resolution at compile time. 
-
-One interesting moment here worth mentioning is that we have two very close ML languages, namely OCaml and F#. The first one tries to be as powerful/expressive as Haskell, while the second one deliberately does not go there... Something to do with [the rule of least power](https://en.wikipedia.org/wiki/Rule_of_least_power).
+- add_type_and_operation.hs. Considered as the ideal solution by DeepSeek. Do not ask me how it works, but it has everything. Open types, open operations (type classes), the ability to iterate over a heterogeneous list (existential types), type class resolution at compile time. 
  
