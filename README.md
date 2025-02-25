@@ -1,7 +1,7 @@
 > "All of the things I once held, precious just don't  
-> Mean anything anymore..."  
+> Mean anything anymore..."
 >
-> <div align="right">— *Kim Wilde*</div>
+> — *Kim Wilde, 1988*
 
 ## Introduction
 
